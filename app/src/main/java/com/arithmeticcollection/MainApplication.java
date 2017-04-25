@@ -5,6 +5,7 @@ import com.arithmeticcollection.middle.CloneGraphClass;
 import com.arithmeticcollection.middle.ContinuousSubarraySumClass;
 import com.arithmeticcollection.middle.DeserializeClass;
 import com.arithmeticcollection.middle.FourSumClass;
+import com.arithmeticcollection.middle.LengthOfLongestSubstringClass;
 import com.arithmeticcollection.middle.LevelOrderBottomClass;
 import com.arithmeticcollection.middle.MaxProfitClass;
 import com.arithmeticcollection.middle.MaxProfitClass2;
@@ -22,6 +23,9 @@ import java.util.ArrayList;
 
 public class MainApplication {
   public static void main(String[] args) {
+
+    LengthOfLongestSubstringClass lengthOfLongestSubstringClass = new LengthOfLongestSubstringClass();
+    lengthOfLongestSubstringClass.lengthOfLongestSubstring("aab");
 
     //ContinuousSubarraySumClass.continuousSubarraySum(new int[]{
     //    //1,2,3,4,5,-1,-2,-3,-4,1,2,1,-8
